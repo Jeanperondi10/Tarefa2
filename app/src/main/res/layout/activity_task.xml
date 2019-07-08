@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activity.TaskActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="NOVA TAREFA"
+        android:textSize="5mm"
+        android:layout_margin="3mm"
+        android:textColor="#11f"
+        android:textAlignment="center"/>
+    <Button
+        android:id="@+id/nextBtn2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:background="#22f"
+        android:textColor="#fff"
+        android:textSize="6mm"
+        android:text="Salvar"
+        android:paddingLeft="5mm"
+        android:paddingRight="5mm"
+        android:layout_marginTop="65mm"/>
+
+</LinearLayout>
